@@ -1,0 +1,27 @@
+{
+  "id": "/",
+  "name": "Reef Crush",
+  "short_name": "Reef Crush",
+  "description": "An ocean match-3 puzzle game with 20 levels. Swipe sea creatures into lines of three and clear the reef.",
+  "lang": "en",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen"],
+  "orientation": "any",
+  "background_color": "#063a6b",
+  "theme_color": "#0a7fb3",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "/icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "screenshots": [
+    { "src": "/screenshots/level-map.png", "sizes": "585x996", "type": "image/png", "form_factor": "narrow", "label": "The level map" },
+    { "src": "/screenshots/gameplay.png", "sizes": "585x996", "type": "image/png", "form_factor": "narrow", "label": "Matching sea creatures" },
+    { "src": "/screenshots/specials.png", "sizes": "585x996", "type": "image/png", "form_factor": "narrow", "label": "Striped, bubble and rainbow pearl specials" }
+  ]
+}

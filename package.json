@@ -1,0 +1,19 @@
+{
+  "name": "reef-crush",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reef Crush: an installable, offline-ready ocean match-3 web game.",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx --yes serve@14 public -l 3000",
+    "test": "node tests/engine.test.js",
+    "balance": "node tests/balance.js 30",
+    "icons": "node scripts/build-icons.mjs"
+  },
+  "devDependencies": {
+    "sharp": "^0.33.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
