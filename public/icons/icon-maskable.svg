@@ -3,17 +3,20 @@
   <!--
     Master artwork for the Reef Crush app icon. Full-bleed 1024 x 1024.
     Two top-level groups:
-      #background  sea, light rays, glow, sand and seaweed (fills the whole square)
+      #background  rainbow sea, light rays, glow, sand and seaweed (fills the whole square)
       #artwork     the hero clownfish, starfish and bubbles (kept inside the maskable safe zone)
     Each placed element uses a single transform attribute.
     scripts/build-icons.mjs derives every shipped icon from this file.
   -->
   <defs>
     <linearGradient id="sea-gradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#3fd6ec"/>
-      <stop offset=".42" stop-color="#0d92c6"/>
-      <stop offset=".8" stop-color="#075aa0"/>
-      <stop offset="1" stop-color="#063570"/>
+      <stop offset="0" stop-color="#ff4d6d"/>
+      <stop offset=".16" stop-color="#ff8c3a"/>
+      <stop offset=".32" stop-color="#ffcc33"/>
+      <stop offset=".5" stop-color="#3dd68c"/>
+      <stop offset=".66" stop-color="#26b4f2"/>
+      <stop offset=".83" stop-color="#5b6cff"/>
+      <stop offset="1" stop-color="#9b4dff"/>
     </linearGradient>
     <linearGradient id="ray-gradient" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#fff" stop-opacity=".42"/>
