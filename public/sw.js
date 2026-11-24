@@ -1,6 +1,6 @@
 /* Reef Crush service worker — makes the game installable and playable offline.
    Bump VERSION whenever any file in APP_SHELL changes so players get the update. */
-const VERSION = 'reef-crush-v1.0.0';
+const VERSION = 'reef-crush-v1.1.0';
 const SHELL_CACHE = `${VERSION}-shell`;
 const FONT_CACHE = 'reef-crush-fonts';
 
